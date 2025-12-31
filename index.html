@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta http-equiv="refresh" content="0;url=https://www.facebook.com">
+    <meta charset="UTF-8">
+    <title>صفحة تحويل</title>
+    <style>
+        /* اجعل الصفحة كاملة وخلفيتها بيضاء */
+        html, body {
+            height: 100%;
+            margin: 0;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* الدائرة التي ستحمل الصورة */
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* إضافة ظل بسيط اختياري */
+            
+        }
+
+        /* الصورة داخل الدائرة */
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+box-shadow: 0 0 1px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">
+        <img src="icon.png" >
+    </div>
+</body>
+</html>
